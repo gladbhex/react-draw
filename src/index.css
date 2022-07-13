@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
+.scroll-container {
+  width: 100%;
+  height: 100vh;
+  /* display: flex;   */
+  overflow: auto;
+  position: relative;
+}
+
+.main-canvas {
+  /* position: absolute; */
+}
+
+.options {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  background: white;
+  border: 1px solid black;
+  min-width: 100px;
+  min-height: 30px;
+}
